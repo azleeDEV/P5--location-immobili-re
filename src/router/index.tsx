@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes,Route, BrowserRouter} from 'react-router-dom';
-import About from '../pages/About/about';
-import Home from '../pages/Home/home';
+import About from '../pages/About/About';
+import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import View from '../pages/View/View';
 
@@ -14,6 +14,6 @@ const AppRouter: React.FC = () => {
             <Route path="/view/:id" element={<View />}/>
         </Routes>
     );
-}
+};
 
 export default AppRouter;
