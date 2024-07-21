@@ -1,12 +1,7 @@
 import React from "react";
-import '../Banner/Banner.css'
+import '../Banner/Banner.css';
 
-interface BannerProps {
-    title: string;
-    image: string;
-}
-
-const Banner: React.FC<BannerProps> = ({ title, image }) => {
+const Banner = ({ title, image }) => {
     return (
         <section className="head">
             <img src={image} alt="fonds_un" />

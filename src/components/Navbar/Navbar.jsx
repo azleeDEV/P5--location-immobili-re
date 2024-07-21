@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "../../assets/LOGO.svg";
+import LogoMobile from "../../assets/LOGO-Mobile.svg";
 import "./Navbar.css"
 import {  NavLink } from 'react-router-dom';
 
@@ -7,8 +9,8 @@ const Navbar = () => {
 
         <nav>
             <picture>
-                <source media="(max-width: 768px)" srcSet='../../assets/LOGO_Mobile.svg' />
-                <img src='../../assets/LOGO.svg' alt="logo_site" />
+                <source media="(max-width: 768px)" srcSet={LogoMobile} />
+                <img src={Logo} alt="logo_site" />
             </picture>
            
             <ul>
