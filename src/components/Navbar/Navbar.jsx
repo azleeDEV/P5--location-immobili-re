@@ -2,12 +2,12 @@ import React from "react";
 import "./Navbar.css"
 import {  NavLink } from 'react-router-dom';
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
     return (
 
         <nav>
             <picture>
-                <source media="(max-width: 768px)" srcSet='../../assets/LOGO_mobile.png' />
+                <source media="(max-width: 768px)" srcSet='../../assets/LOGO_Mobile.svg' />
                 <img src='../../assets/LOGO.svg' alt="logo_site" />
             </picture>
            

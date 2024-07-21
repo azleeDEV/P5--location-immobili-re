@@ -8,7 +8,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Ajout de cette ligne pour centrer verticalement */
+    align-items: center;
 
     img {
         height: 39px;

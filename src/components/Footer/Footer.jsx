@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css"
 
-const Footer: React.FC = () => {
+const Footer = () => {
     return (
         <footer>
             <img src='../../assets/lOGO_Footer.svg' alt="logo" />

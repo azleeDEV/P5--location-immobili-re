@@ -5,7 +5,7 @@ import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import View from '../pages/View/View';
 
-const AppRouter: React.FC = () => {
+const AppRouter = () => {
     return (
         <Routes>
             <Route path="/" Component={Home}/>

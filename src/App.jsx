@@ -1,9 +1,9 @@
 import React from 'react';
 import AppRouter from './router/index';
-import Navbar from './components/Navbar/navbar';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
-const App: React.FC = () => {
+const App = () => {
   return (
       <div className="main">
           <header>
