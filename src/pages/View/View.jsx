@@ -1,5 +1,5 @@
 import React from 'react';
-import './View.css';
+import './View.scss';
 
 const View = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Home.scss';
 import { Link } from 'react-router-dom';
 import Image from '../../assets/fond_un.png';
 import DataBase from '../../api/logement.json';
@@ -13,7 +13,7 @@ const Home = () => {
             <div className="main-container">
                 {DataBase.map((element, index) => {
                     return (
-                    <Link to={`/view/${element.id}`} key={index}>
+                    <Link className='card-link' to={`/view/${element.id}`} key={index}>
                         <Card title={element.title} image={element.cover} />
                     </Link>
                     );

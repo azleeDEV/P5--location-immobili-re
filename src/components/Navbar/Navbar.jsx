@@ -1,8 +1,9 @@
 import React from "react";
 import Logo from "../../assets/LOGO.svg";
 import LogoMobile from "../../assets/LOGO-Mobile.svg";
-import "./Navbar.css"
+import "./Navbar.scss"
 import {  NavLink } from 'react-router-dom';
+import '../../styles/style.scss'
 
 const Navbar = () => {
     return (
