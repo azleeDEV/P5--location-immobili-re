@@ -1,0 +1,96 @@
+.collapse {
+    display: flex;
+    flex-direction: column;
+    flex: 1 50%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    button {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+
+        @media screen and (max-width: 768px){
+            font-size: 13px;
+        }
+
+    }
+}
+
+.collapsible {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+    border: none;
+    background-color: #FF6060;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 18px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.6s;
+
+ 
+
+    img {
+        height: 16px;
+        width: 20px;
+    }
+
+    &.active {
+        img {
+            transform: rotate(180deg); 
+            transition: transform 0.6s ease;
+    }
+    }
+    &.desactive {
+        img {
+            transform: rotate(0deg); 
+            transition: transform 0.6s ease;
+        } 
+    }
+   
+}
+
+.content {
+    max-height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 20px 18px 0;
+    background: #F6F6F673;
+
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s ease-out;
+    z-index: -1;
+
+    transform: translateY(-20px);
+    &.active {
+        max-height: 100%;
+        opacity: 1;
+    }
+
+    div {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.67px;
+
+
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+    }
+
+}
