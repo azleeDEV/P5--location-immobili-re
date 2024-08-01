@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav>
             <picture>
                 <source media="(max-width: 768px)" srcSet={LogoMobile} />
-                <NavLink to="/"><img src={Logo} alt="logo_site" /></NavLink>
+                <img src={Logo} alt="logo_site" />
             </picture>
            
             <ul>
