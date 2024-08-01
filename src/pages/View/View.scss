@@ -1,0 +1,114 @@
+.view {
+    flex-grow: 1;
+
+    .view-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+
+        .view-infos {
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+
+            h1 {
+                font-family: Montserrat;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 51.34px;
+                color: #FF6060;
+            }
+            p {
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 25.67px;
+
+
+            }
+        }
+        .view-host {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+
+            @media screen and (max-width: 768px){
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+              
+            }
+           
+
+            .host-info {
+                display: flex;
+                align-items: center;
+                
+                .host-name {
+                    text-align: right;
+                    margin-right: 5px;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 25.67px;
+                    color: #FF6060;
+
+
+
+                }
+                span {
+                    display: block;
+                }
+               
+                
+            }
+
+            img {
+                margin-left: 5px;
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+           
+ 
+            }
+            .star-image {
+                
+                margin-top: 20px;
+                width: 20px; 
+                height: 20px;
+            }
+             
+
+        }
+    } 
+    .cols {
+        display: flex;
+        justify-content: space-between;
+        flex: 1 50%;
+        gap: 76px;
+        margin-top: 26px;
+
+    }
+    @media screen and (max-width: 768px) {
+        .cols {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1 100%;
+        }
+        
+    }
+    
+}
