@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import PropTypes from 'prop-types';
 import DataBase from '../../api/logement.json';
 import './View.scss';
 import Slider from '../../components/Slider/Slider';
@@ -64,25 +63,5 @@ const View = () => {
         </div>
     );
 };
-
-View.propTypes = {
-    id: PropTypes.string,
-    data: PropTypes.shape
-    ({
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    cover: PropTypes.string,
-    pictures: PropTypes.arrayOf(PropTypes.string).isRequired,
-    description: PropTypes.string.isRequired,
-    host: PropTypes.shape
-    ({
-    name: PropTypes.string.isRequired,
-    picture: PropTypes.string }).isRequired,
-    rating: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-    equipments: PropTypes.arrayOf(PropTypes.string).isRequired,
-    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-    }),
-};
-
+   
 export default View;

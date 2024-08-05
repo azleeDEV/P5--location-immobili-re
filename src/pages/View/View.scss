@@ -55,6 +55,11 @@
             .host-info {
                 display: flex;
                 align-items: center;
+                padding-top: 30px;
+                
+                @media screen and (max-width: 768px){
+                   padding-top: 0;
+                }
                 
                 .host-name {
                     text-align: right;

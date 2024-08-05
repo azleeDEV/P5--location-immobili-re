@@ -4,7 +4,21 @@ nav {
     align-items: center;
     margin-top: 20px;
     padding-bottom: 15px;
-    li {
+
+          picture{
+            width: 30%;
+            max-width: 170px;
+            img{
+              width: 100%;
+            }
+          }
+    ul {
+      @media screen and (max-width: 768px){
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+      li {
         list-style: none;
         display: inline-block;
       }
@@ -18,15 +32,17 @@ nav {
 
         @media screen and (max-width: 768px){
           font-size: 12px;
+          text-transform: uppercase;
         }
 
         &.active {
           text-decoration: underline;
           text-underline-offset: 8px;
         }
+        &:hover{
+          color: #f1356d;
+        }
       }
-      a:hover {
-        color: #f1356d;
-      }
-     
   }
+ }
+    
