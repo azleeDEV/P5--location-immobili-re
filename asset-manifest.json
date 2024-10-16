@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Projet-5-location-immo/static/css/main.6244d90b.css",
+    "main.js": "/Projet-5-location-immo/static/js/main.8d240dd8.js",
+    "static/media/fond_deux.png": "/Projet-5-location-immo/static/media/fond_deux.640955dab8c7bff25514.png",
+    "static/media/fond_un.png": "/Projet-5-location-immo/static/media/fond_un.19221376a0aa2549c135.png",
+    "static/media/LOGO-Mobile.svg": "/Projet-5-location-immo/static/media/LOGO-Mobile.33c2abdaa59fa8888c45ea81b1d1a546.svg",
+    "static/media/LOGO.svg": "/Projet-5-location-immo/static/media/LOGO.69a3df082e3c5a974ce0abfe5dc4be4e.svg",
+    "static/media/LOGO-Footer.svg": "/Projet-5-location-immo/static/media/LOGO-Footer.49d6c6c773443de2f700868f876ad8db.svg",
+    "static/media/404.svg": "/Projet-5-location-immo/static/media/404.f20604d9c3f0bf4b2680c8aab9b26cc3.svg",
+    "index.html": "/Projet-5-location-immo/index.html",
+    "main.6244d90b.css.map": "/Projet-5-location-immo/static/css/main.6244d90b.css.map",
+    "main.8d240dd8.js.map": "/Projet-5-location-immo/static/js/main.8d240dd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6244d90b.css",
+    "static/js/main.8d240dd8.js"
+  ]
+}
